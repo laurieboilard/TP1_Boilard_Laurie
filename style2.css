@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+p {
+    font-size: 13px;
+    padding: 10px 0 0 0;
+}
+
+h1, h2, h3, h4, h6, p, ul {
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+/*header ----------------------------------------------------*/
+#header {
+    background-color: #b1c2ed;
+    height: 200px;
+}
+/*Titre*/
+#header > div > h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 55px;
+    padding-bottom: 5px;
+}
+/*Sous-titre*/
+#header > div > h2 {
+    color: #17328f;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+
+
+/*navigation ----------------------------------------------------*/
+#nav {
+    background-color: #9c6b6b;
+    margin-bottom: 30px;
+}
+#nav > ul {
+    padding: 0;
+}
+#nav > ul > li {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+
+#nav > ul > li > a,
+#nav > ul > li > a:visited,
+#nav > ul > li > a:active,
+#nav > ul > li > a:focus  {
+    text-transform: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    
+}
+
+#nav > ul > li > a:hover{
+    color: #4d1414;
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+/*les sections----------------------------------------------------*/
+/*
+#section1, #section2, #section3, #section4 {
+    background-color: #c4c4c4;
+}
+*/
+
+#articletext1 {
+    padding: 20px;
+}
+#titre {
+    float: left;
+}
+#element {
+    float: left;
+    margin-left: 10px;
+}
+h4 {
+    clear: both;
+}
+
+.bold {
+    font-weight: bold;
+}
+p {
+    padding-top: 10px;
+}
+
+.conteneur {
+    background-color: khaki;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#conteneurtext {
+    float: right;
+    background-color: #c4c4c4;
+    padding: 40px 30px 40px 30px;
+    width: 65%;
+    height: 230px;
+    text-align: left;
+}
+
+/*footer----------------------------------------------------*/
+#footer {
+    clear: both;
+    background-color: #898989;
+}
+
+#footer > div > h4 {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
